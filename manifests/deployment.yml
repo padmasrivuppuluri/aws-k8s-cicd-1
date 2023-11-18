@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: java-app
-        image: pylifedevops/cicd:v3
+        image: pylifedevops/cicd:v4
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
